@@ -23,6 +23,17 @@ body {
     opacity: 0.8;
 }
 
+.img-hover-play:hover {
+    opacity: 0.5;
+    transform: rotate(-0.01turn);
+
+}
+
+.img-hover-fun:hover {
+    transform: rotate(-0.01turn);
+
+}
+
 
 .products .caption {
     height: 130px;
