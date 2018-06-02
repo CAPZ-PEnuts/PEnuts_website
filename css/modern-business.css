@@ -33,6 +33,9 @@ body {
     transform: rotate(-0.01turn);
 
 }
+.img-hover-love:hover {
+    transform: scale(1.5)
+}
 
 .img-hover-fun1:hover {
     transform: rotate(-0.02turn);
