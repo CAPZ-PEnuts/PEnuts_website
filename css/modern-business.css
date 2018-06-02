@@ -34,6 +34,11 @@ body {
 
 }
 
+.img-hover-fun1:hover {
+    transform: rotate(-0.02turn);
+
+}
+
 
 .products .caption {
     height: 130px;
