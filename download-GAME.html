@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PEnuts - Student Game Project - Download-Game</title>
 	<meta name="description" content="PEnuts _ The Game">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="favicon.ico" />
@@ -96,7 +96,6 @@
 
         <!-- Image Header -->
         <div class="row">
-            <div class="text-center"><h4>Links for the game will come really soon !</h4></div>
             <div class="col-lg-12">
                 <img class="img-responsive" src="img/Panels/Penuts.png" alt="">
             </div>
@@ -105,27 +104,147 @@
 
 
         <div class="row">
-            <div class="col-md-4 col-sm-6">
-                <div class="text-center">
+            <div class="col-md-4 col-sm-6 text-center">
+                <button class="btn-love" id="myBtn">
                     <span class="fa-stack fa-5x">
-                          <a href="#windows" class="img-hover-play"><i class="fa fa-circle fa-stack-2x text-primary img-hover-fun1"></i><i class="fa fa-windows fa-stack-1x fa-inverse img-hover-fun1"></i></a>
+                      <div class="img-hover-play"><i class="fa fa-circle fa-stack-2x text-primary img-hover-fun1"></i><i class="fa fa-windows fa-stack-1x fa-inverse img-hover-fun1"></i></div>
                     </span>
+                </button>  
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="row" id="windows">
+                            <div class="col-lg-12">
+                                <h2 class="page-header"><i class="fa-fa-windows fa-stack-2x"></i>Windows</h2>
+                            </div>
+                            <div class="col-md-6">
+                                <h4 class="text-center well"><i class="fa fa-download"></i> Full-version &amp; Installer</h4>
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8 col-sm-6 text-center">
+                                    Here is a full-version of our game (with all features). This file will allow you to install our game on your computer.<br>
+                                    <br>
+                                </div>
+                                <div class="col-md-2"></div>
+
+                                <div class="col-md-12 col-sm-6 text-center">
+                                    <div class="panel-heading">
+                                        <li><a href="/game/PEnuts%20Setup%20(x86_64).exe">PEnuts Setup (x86_64).exe</a>
+                                        </li>
+                                        <br>
+                                        <li><a href="/game/PEnuts%20Setup%20(x86).exe">PEnuts Setup (x86).exe</a>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <h4 class="text-center well"><i class="fa fa-folder"></i> Portable Version</h4>
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8 col-sm-6 text-center">
+                                    Here is a portable-version of our game (with all features). This file will allow you to play our game without having to install it.<br>
+                                    <br>
+                                </div>
+                                <div class="col-md-2"></div>
+
+                                <div class="col-md-12 col-sm-6 text-center">
+                                    <div class="panel-heading">
+                                        <li><a href="/game/PEnuts_Windows_64bits.zip">PEnuts_Windows_64bits.zip</a>
+                                        </li>
+                                        <br>
+                                        <li><a href="/game/PEnuts_Windows_32bits.zip">PEnuts_Windows_32bits.zip</a>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="img-responsive" src="img/white-background.PNG" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="text-center">
+            
+            
+            <div class="col-md-4 col-sm-6 text-center">
+                <button class="btn-love" id="myBtn2">
                     <span class="fa-stack fa-5x">
-                          <a href="#linux" class="img-hover-play"><i class="fa fa-circle fa-stack-2x text-primary img-hover-fun1"></i><i class="fa fa-linux fa-stack-1x fa-inverse img-hover-fun1"></i></a>
+                      <div class="img-hover-play"><i class="fa fa-circle fa-stack-2x text-primary img-hover-fun1"></i><i class="fa fa-linux fa-stack-1x fa-inverse img-hover-fun1"></i></div>
                     </span>
+                </button>  
+                <!-- The Modal -->
+                <div id="myModal2" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="row" id="linux">
+                            <div class="col-lg-12">
+                                <h2 class="page-header">Linux</h2>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-4 col-sm-6 text-center">
+                                    Here is a full-version of our game (with all features) allowing you to play on linux system.<br>
+                                    <br>
+                                </div>
+                                <div class="col-md-4 col-sm-6 text-center">
+
+                                    <u>Format</u> : .zip<br><br>
+                                    <u>Content</u> : .x86 // .x86_64 &amp; data folder<br><br>
+                                    <u>Size</u> : 27 Mo
+                                </div>
+                                <div class="col-md-4 col-sm-6 text-center">
+                                    <li><a href="/game/PEnuts_Linux_x86.zip">PEnuts_Linux_x86.zip</a>
+                                    </li><br>
+                                    <li><a href="/game/PEnuts_Linux_x86_64.zip">PEnuts_Linux_x86_64.zip</a>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="img-responsive" src="img/white-background.PNG" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="text-center">
+            
+            
+            <div class="col-md-4 col-sm-6 text-center">
+                <button class="btn-love" id="myBtn3">
                     <span class="fa-stack fa-5x">
-                          <a href="#macOS" class="img-hover-play"><i class="fa fa-circle fa-stack-2x text-primary img-hover-fun1"></i><i class="fa fa-apple fa-stack-1x fa-inverse img-hover-fun1"></i></a>
+                      <div class="img-hover-play"><i class="fa fa-circle fa-stack-2x text-primary img-hover-fun1"></i><i class="fa fa-apple fa-stack-1x fa-inverse img-hover-fun1"></i></div>
                     </span>
+                </button>  
+                <!-- The Modal -->
+                <div id="myModal3" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="row" id="MacOS">
+                            <div class="col-lg-12">
+                                <h2 class="page-header">MacOS</h2>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-4 col-sm-6 text-center">
+                                Everything for macOS is here.<br>
+                                <br>
+                                </div>
+                                <div class="col-md-4 col-sm-6 text-center">
+
+                                    <u>Format</u> : .zip<br><br>
+                                    <u>Content</u> : .app file<br><br>
+                                    <u>Size</u> : 26 Mo
+                                </div>
+                                <div class="col-md-4 col-sm-6 text-center">
+                                    <li><a href="/game/PEnuts_MacOS_app.zip">PEnuts_MacOS_app.zip</a>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="img-responsive" src="img/white-background.PNG" alt="">
+                    </div>
                 </div>
             </div>
+            
+            
+            
+
             <div class="col-md-12 col-sm-6"><br><br></div>
             
             <div class="col-md-3 col-sm-6"></div>
@@ -136,184 +255,16 @@
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
                               <i class="fa fa-info fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4>In each version available below, you can take a look at the README in it for more informations.<br>
+                        <h4>In each version available, you can take a look at the README in it for more informations.<br>
                         If you have any issue, you can also <a href = contact.html>contact us</a>.</h4>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6"></div>
-
-            
-            <!-- ____________________________________________________________________________________________________________________________________________-->
-
-        </div>
-
-        <!-- Service Tabs -->
-        <div class="row" id="windows">
-            <div class="col-lg-12">
-                <h2 class="page-header"><i class="fa-fa-windows fa-stack-2x"></i>Windows</h2>
-            </div>
-            <div class="col-md-12">
-
-                <ul id="windowsTab" class="nav nav-tabs nav-justified">
-                    <li class="active"><a href="#windows-one" data-toggle="tab"><i class="fa fa-download"></i> Full-version &amp; Installer</a>
-                    </li>
-                    <!--
-                    <li class=""><a href="#windows-two" data-toggle="tab"><i class="fa fa-leaf"></i> light-version</a>
-                    </li>
-                    -->
-                    <li class=""><a href="#windows-three" data-toggle="tab"><i class="fa fa-folder"></i> Portable-version</a>
-                    </li>
-                    <li class=""><a href="#windows-four" data-toggle="tab"><i class="fa fa-database"></i> Other</a>
-                    </li>
-                </ul>
-
-                <div id="windowsTabContent" class="tab-content">
-                    <div class="tab-pane fade active in" id="windows-one">
-                        <br>
-                        <h4>Full-version &amp; Installer</h4>
-                        <div class="col-md-4 col-sm-6">
-                            Here is a full-version of our game (with all features). This file will allow you to install our game on your computer.<br>
-                            <br>
-                        </div>
-                        <div class="col-md-4 col-sm-6 text-center">
-
-                            <u>Format</u> : .exe <br><br>
-                            <u>Content</u> : SETUP with an installer<br><br>
-                            <u>Size</u> : ...
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="panel-heading">
-                                <li><a href="#">version 64bit</a>
-                                </li>
-                                <br>
-                                <li><a href="#">version 32bit</a>
-                                </li>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="windows-two">
- <br>
-                        <h4>Light-version &amp; Installer</h4>
-                        <div class="col-md-4 col-sm-6">
-                            Here is a full-version of our game (with all features). This file will allow you to install our game on your computer.<br>
-                            <br>
-                        </div>
-                        <div class="col-md-4 col-sm-6 text-center">
-
-                            <u>Format</u> : .exe <br><br>
-                            <u>Content</u> : SETUP with an installer<br><br>
-                            <u>Size</u> : ...
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="panel-heading">
-                                <li><a href="#">version 64bit</a>
-                                </li>
-                                <br>
-                                <li><a href="#">version 32bit</a>
-                                </li>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="windows-three">
-                        <br>
-                        <h4>Portable Version</h4>
-                        <div class="col-md-4 col-sm-6">
-                            Here is a portable-version of our game (with all features). This file will allow you to play our game without having to install it.<br>
-                            <br>
-                        </div>
-                        <div class="col-md-4 col-sm-6 text-center">
-
-                            <u>Format</u> : .zip<br><br>
-                            <u>Content</u> : Penuts.exe &amp; data folder<br><br>
-                            <u>Size</u> : ...
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="panel-heading">
-                                <li><a href="#">version 64bit</a>
-                                </li>
-                                <br>
-                                <li><a href="#">version 32bit</a>
-                                </li>
-                            </div>
-                        </div>
-                    </div>   
-                    <div class="tab-pane fade" id="windows-four">
-                                                <br>
-                        <h4>Other Versions</h4>
-                        <div class="col-md-4 col-sm-6">
-                            Here there will be other/older versions of our game.<br><br>
-                        </div>
-                        <div class="col-md-4 col-sm-6 text-center">
-
-                            <u>Format</u> : ...<br><br>
-                            <u>Content</u> : ...<br><br>
-                            <u>Size</u> : ...
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="panel-heading">
-                                <br>
-                                <li><a href="#">Archive</a>
-                                </li>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-        </div>
-        <div class="row col-md-12" id="linux">
-            <h2 class="page-header">Linux</h2>
-            <h4>Full-version</h4>
-            <div class="col-md-4 col-sm-6">
-                Here is a full-version of our game (with all features) allowing you to play on linux system.<br>
-                <br>
-            </div>
-            <div class="col-md-4 col-sm-6 text-center">
-
-                <u>Format</u> : .exe &amp; folder<br><br>
-                <u>Content</u> : Application.exe &amp; data folder<br><br>
-                <u>Size</u> : ...
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <ul>
-                <li><a href="#">PEnuts_i389.deb</a>
-                </li>
-                <li><a href="#">PEnuts_amd64.deb</a>
-                </li>
-                <li><a href="#">PEnuts_x86_64.rpm</a>
-                </li>
-                <li><a href="#">PEnuts_x86.rpm</a>
-                </li>
-                <li><a href="#">PEnuts_x86_64.tar.xz</a>
-                </li>
-                <li><a href="#">PEnuts_x86.tar.xz</a>
-                </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row col-md-12" id="MacOS">
-            <h2 class="page-header">MacOS</h2>
-            <h4>Full-version</h4>
-            <div class="col-md-4 col-sm-6">
-                Everything for macOS is here.<br>
-                <br>
-            </div>
-            <div class="col-md-4 col-sm-6 text-center">
-
-                <u>Format</u> : .app<br><br>
-                <u>Content</u> : Game &amp; data folder<br><br>
-                <u>Size</u> : ...
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <ul>
-                <li><a href="#">PEnuts_MacOS.app</a>
-                </li>
-                </ul>
-            </div>
         </div>
         
-
-        <!-- /.row -->
+        
+        
 
         <!-- Footer -->
         <footer>
@@ -333,6 +284,93 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    
+    <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+    // Get the modal
+    var modal2 = document.getElementById('myModal2');
+
+    // Get the button that opens the modal
+    var btn2 = document.getElementById("myBtn2");
+
+    // Get the <span> element that closes the modal
+    var span2 = document.getElementsByClassName("close")[1];
+
+    // When the user clicks the button, open the modal 
+    btn2.onclick = function() {
+        modal2.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span2.onclick = function() {
+        modal2.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal2) {
+            modal.style.display = "none";
+            modal2.style.display = "none";
+        }
+    }
+
+    // Get the modal
+    var modal3 = document.getElementById('myModal3');
+
+    // Get the button that opens the modal
+    var btn3 = document.getElementById("myBtn3");
+
+    // Get the <span> element that closes the modal
+    var span3 = document.getElementsByClassName("close")[2];
+
+    // When the user clicks the button, open the modal 
+    btn3.onclick = function() {
+        modal3.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span3.onclick = function() {
+        modal3.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+        if (event.target == modal2) {
+            modal2.style.display = "none";
+        }
+        if (event.target == modal3) {
+            modal3.style.display = "none";
+        }
+    }
+    </script>
 
 </body>
 
