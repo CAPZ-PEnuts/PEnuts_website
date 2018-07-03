@@ -161,6 +161,10 @@
 .fa-inverse {
   color: #ffffff;
 }
+
+.fa-black {
+  color: #c42a00;
+}
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
 .fa-glass:before {
